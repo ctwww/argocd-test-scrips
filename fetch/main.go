@@ -14,10 +14,12 @@ import (
 	"k8s.io/utils/ptr"
 )
 
-var serverAddr = "argocd.zhipuai-infra.cn"
-var userName = "admin"
-var password = "frc1nbc7quk!fwg6YEM"
+// argo-cd info
+var serverAddr = ""
+var userName = ""
+var password = ""
 
+// fetch app info
 var appName = "appName"
 var ns = "ns"
 var kind = "Pod"
